@@ -28,4 +28,4 @@ If access to confidential documentation is required, the LDO Pod is willing to e
 For questions or coordination, please contact:
 
 - Damian Pudło on Slack
-- Marta Piekarska Geater on Slack
+- MPG on Slack
