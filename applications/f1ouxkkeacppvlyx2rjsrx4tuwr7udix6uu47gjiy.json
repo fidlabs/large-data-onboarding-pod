@@ -1,0 +1,178 @@
+{
+  "Version": "1.3",
+  "ID": "f1ouxkkeacppvlyx2rjsrx4tuwr7udix6uu47gjiy",
+  "Issue Number": "43",
+  "Client": {
+    "Name": "Common Crawl",
+    "Region": "Not-for-Profit",
+    "Industry": "",
+    "Website": "https://commoncrawl.org",
+    "Social Media": "https://x.com/commoncrawl",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Project: This project is organized by the CommonCrawl open source organization to regularly crawl network data and save it in the AWS open data set. And study how to clean it into AI training data. They have stored data from 2008 onwards, which is an order of magnitude larger.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "",
+    "How do you plan to prepare the dataset": "I will fully communicate with the storage providers, including downloading the data to my local hard disk for offline transactions. If bandwidth resources are sufficient due to long distances, the storage provider will download it from AWS, using including but not limited to boost.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.commoncrawl.org/crawl-data/CC-NEWS/2016/09/warc.paths.gz\r\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/cc-index-table.paths.gz\r\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/cc-index.paths.gz\r\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/non200responses.paths.gz",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "2000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-02-20 09:59:34.400907074 UTC",
+    "Validated By": "dampud",
+    "Active": false,
+    "Updated At": "2025-02-22 17:00:28.138338070 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ouxkkeacppvlyx2rjsrx4tuwr7udix6uu47gjiy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "a6d2b261-47c9-43a2-a0ca-b2093762eba6",
+      "Request Type": "First",
+      "Created At": "2024-07-02 11:59:25.032630216 UTC",
+      "Updated At": "2024-07-02 11:59:25.032631693 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-07-02 12:00:09.709000000 UTC",
+          "Message CID": "bafy2bzaceb5u3b7wbueon42qynvvbt6fbq4vrfimwp6vp346txtrmc4ckdcck"
+        }
+      ]
+    },
+    {
+      "ID": "af587ae8-f173-419e-9f27-3ea7fc53d415",
+      "Request Type": "Refill",
+      "Created At": "2024-08-08 12:39:26.564681662 UTC",
+      "Updated At": "2024-08-08 12:39:26.564683063 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-08-08 12:40:20.406000000 UTC",
+          "Message CID": "bafy2bzacedlkeffej5rihyb2qm2py4lcmb2a6zilimjzsf453qoh432lshaxq"
+        }
+      ]
+    },
+    {
+      "ID": "c6952858-034e-443a-9fa0-bce141a45e6c",
+      "Request Type": "Refill",
+      "Created At": "2024-10-07 15:39:08.381409829 UTC",
+      "Updated At": "2024-10-07 15:39:08.381410447 UTC",
+      "Active": false,
+      "Allocation Amount": "150TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-10-07 15:45:18.456000000 UTC",
+          "Message CID": "bafy2bzaceblfmt565me53yijgmctpipncaugdxkexkm7aspfablsecjdupvns"
+        }
+      ]
+    },
+    {
+      "ID": "e834d5ac-0769-4ebe-85d8-ef49ce6049dc",
+      "Request Type": "Refill",
+      "Created At": "2024-11-20 12:07:40.192873618 UTC",
+      "Updated At": "2024-11-20 12:07:40.192874227 UTC",
+      "Active": false,
+      "Allocation Amount": "768TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-11-20 12:09:07.546000000 UTC",
+          "Message CID": "bafy2bzaceabashew36zt425un5zgnsh7gdkxtj2cistiealshvexpxkapdmhi"
+        }
+      ]
+    },
+    {
+      "ID": "4fd9df0a-cf52-4413-a0ac-cc99135b953e",
+      "Request Type": "Refill",
+      "Created At": "2024-12-30 11:11:50.474296346 UTC",
+      "Updated At": "2024-12-30 11:11:50.474297150 UTC",
+      "Active": false,
+      "Allocation Amount": "500TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-12-30 11:14:31.994000000 UTC",
+          "Message CID": "bafy2bzacedug5ehs3rwkde3zbhs7jbs2ua7v5lfftsg2ft5tabyrnvdn6tu6q"
+        }
+      ]
+    },
+    {
+      "ID": "f9e67412-8ec3-45fa-a481-94f416968f98",
+      "Request Type": "Refill",
+      "Created At": "2025-01-10 12:07:25.141105858 UTC",
+      "Updated At": "2025-01-10 12:07:25.141106623 UTC",
+      "Active": false,
+      "Allocation Amount": "1PiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-01-10 12:10:05.657000000 UTC",
+          "Message CID": "bafy2bzacecrq2rrcq46c4bza2cnrkhnd6vdkt2e6z53tjhmanrgmkoow6j7um"
+        }
+      ]
+    },
+    {
+      "ID": "8a19dab6-9e5d-4867-bfdd-a747140818ef",
+      "Request Type": "Refill",
+      "Created At": "2025-01-16 13:35:03.229951181 UTC",
+      "Updated At": "2025-01-16 13:35:03.229951907 UTC",
+      "Active": false,
+      "Allocation Amount": "2.51PiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-01-16 13:37:02.371000000 UTC",
+          "Message CID": "bafy2bzacecesgsnjwx5ncvul6evr3j5tyl5iogwhsid6o3nfmgdtczxfgvff2"
+        }
+      ]
+    },
+    {
+      "ID": "afc4f572-9c66-4d05-9384-9193a5ca69c0",
+      "Request Type": "Refill",
+      "Created At": "2025-02-20 09:57:16.026363239 UTC",
+      "Updated At": "2025-02-20 09:57:16.026364002 UTC",
+      "Active": false,
+      "Allocation Amount": "7.7600000000002 TiB",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-02-20 09:59:30.917000000 UTC",
+          "Message CID": "bafy2bzacebb5vyw6vhlla2h24snosg3wlzr73vhuw4ptmtqnr2i6yag2vwhla"
+        }
+      ]
+    }
+  ]
+}

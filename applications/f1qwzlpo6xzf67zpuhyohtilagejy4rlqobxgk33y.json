@@ -1,0 +1,162 @@
+{
+  "Version": "1.3",
+  "ID": "f1qwzlpo6xzf67zpuhyohtilagejy4rlqobxgk33y",
+  "Issue Number": "92",
+  "Client": {
+    "Name": "XSG",
+    "Region": "China",
+    "Industry": "Environment",
+    "Website": "http://www.htymeta.com/",
+    "Social Media": "1411479497@qq.com",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Project: The main research is on the impact of climate change on agricultural production, and the impact of temperature, precipitation and extreme climate events on crop yields. We will use climate data from public datasets and Han Tang Cloud's cloud computing and big data processing capabilities to establish accurate prediction models, provide scientific basis for agricultural management and policy making, and strive to provide technical support for the national East-West computing strategy. Understanding the specific impact of climate change on agriculture can help formulate effective response strategies. We hope to promote the development of sustainable agriculture through this project, combined with distributed storage and big data technology.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Download public data using NASA's Atmospheric Science Data Center, an archive of NASA satellite and model data related to atmospheric chemistry, atmospheric dynamics, precipitation, hydrology, solar irradiance, weather, and climate.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We have our own storage facility. The data is based on NASA open source big data warehouse. After downloading, use filedrive-team's open source go-graphsplit to cut it into piece files of specified size. The csv file will store the piece_cid and size information corresponding to the source file. We will also use but not limited to Droplet and other tools.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Climate research data in public datasets, especially MODIS datasets, the following are some samples：\nhttps://search.earthdata.nasa.gov/projects?p=C2408009906-LPCLOUD!C2408009906-LPCLOUD&tl=1729159597!3!!&fst0=Atmosphere&lat=33.73861309212248&long=43.119140625&zoom=5\nhttps://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL1BRAD.001/EMIT_L1B_RAD_001_20241016T075314_2429005_022/EMIT_L1B_RAD_001_20241016T075314_2429005_022.nc\ns3://lp-prod-protected/EMITL1BRAD.001/EMIT_L1B_RAD_001_20241016T075338_2429005_024/EMIT_L1B_RAD_001_20241016T075338_2429005_024.nc",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03179570 SP     \nf03178077 JP    \nf03179572 US\nf03214937 US\n\nf03298672 DE\nf03298673 DE\nf03308933 UK\nf03308920 JP\nf03308922 JP\n\nf03385462 US\nf03385456 US\nf03402285 CN\nf03402308 CN\nf03402347 SP\nf03402379 SP",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-04-02 13:08:07.229688194 UTC",
+    "Validated By": "dampud",
+    "Active": true,
+    "Updated At": "2025-04-02 13:08:07.229684288 UTC",
+    "Active Request ID": "c2bcb08b-6cb3-4416-ae0f-5c8136edba8f",
+    "On Chain Address": "f1qwzlpo6xzf67zpuhyohtilagejy4rlqobxgk33y",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "cb3288b8-63e1-4d19-9caa-bbc0e4a8f6c3",
+      "Request Type": "First",
+      "Created At": "2024-10-30 10:15:33.370559122 UTC",
+      "Updated At": "2024-10-30 10:15:33.370560301 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-10-30 10:16:50.624000000 UTC",
+          "Message CID": "bafy2bzacedr57irhmangdxvapyk4krixsgwqf3dxdrph7e7h4su52fn2qh42e"
+        }
+      ]
+    },
+    {
+      "ID": "37b0bc60-ad63-4836-91ef-e88f74c031b3",
+      "Request Type": "Refill",
+      "Created At": "2024-11-06 05:49:40.116625668 UTC",
+      "Updated At": "2024-11-06 05:49:40.116626372 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-11-20 12:13:39.902000000 UTC",
+          "Message CID": "bafy2bzacedqw3ixsekzgswlvhvqma5izx23tpdytbnqoacz3ssg3ixemzlyom"
+        }
+      ]
+    },
+    {
+      "ID": "8774cc4a-29fa-49f9-aee8-2cdcccbad3ab",
+      "Request Type": "Refill",
+      "Created At": "2024-12-17 09:09:28.534043150 UTC",
+      "Updated At": "2024-12-17 09:09:28.534043884 UTC",
+      "Active": false,
+      "Allocation Amount": "460TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-12-17 09:11:40.788000000 UTC",
+          "Message CID": "bafy2bzacec6z5sewfnosnqn3adl6x5whw77srgqfws3c23j5ww6tscs7hceim"
+        }
+      ]
+    },
+    {
+      "ID": "a6ec9be6-6472-4a97-907f-17c1f84a195f",
+      "Request Type": "Refill",
+      "Created At": "2025-02-10 13:36:03.872467176 UTC",
+      "Updated At": "2025-02-10 13:36:03.872467974 UTC",
+      "Active": false,
+      "Allocation Amount": "500TiB",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-02-10 13:38:01.880000000 UTC",
+          "Message CID": "bafy2bzacebbgcbxsropo226q5q2nlqv5nbr47yoh2v7byt4dsp3livhiqbx6k"
+        }
+      ]
+    },
+    {
+      "ID": "c1b7c7aa-8d2e-4faa-bd3d-6e1083ae0317",
+      "Request Type": "Refill",
+      "Created At": "2025-03-07 08:30:34.723706381 UTC",
+      "Updated At": "2025-03-07 08:30:34.723707226 UTC",
+      "Active": false,
+      "Allocation Amount": "1 PiB",
+      "Signers": [
+        {
+          "Github Username": "martapiekarska",
+          "Signing Address": "f1k4zrriujtwdlea64k7saa3l7jkbatzebfzinj7i",
+          "Created At": "2025-03-07 08:37:37.252000000 UTC",
+          "Message CID": "bafy2bzacednntaeg5efcrlaa6e2vjyd6caxgq4ijbuhlobaigqrrlsnhurldi"
+        }
+      ]
+    },
+    {
+      "ID": "247ff796-58a9-45f1-b5b6-23ca0e2a073c",
+      "Request Type": "Refill",
+      "Created At": "2025-03-14 12:22:29.552581343 UTC",
+      "Updated At": "2025-03-14 12:22:29.552582090 UTC",
+      "Active": false,
+      "Allocation Amount": "936.999 TiB",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-03-14 12:24:33.444000000 UTC",
+          "Message CID": "bafy2bzaceapu7reibsemli5a54hkoiaqc7qrumjwtyrjpexyz6rdnwnhreux2"
+        }
+      ]
+    },
+    {
+      "ID": "c2bcb08b-6cb3-4416-ae0f-5c8136edba8f",
+      "Request Type": "Refill",
+      "Created At": "2025-04-02 13:06:00.979123001 UTC",
+      "Updated At": "2025-04-02 13:06:00.979123835 UTC",
+      "Active": false,
+      "Allocation Amount": "1100611139404B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-04-02 13:08:04.121000000 UTC",
+          "Message CID": "bafy2bzacea2ozepkcib2mealrhvx7xtsepnq3w3web3ebgfnm4f7asxoa7e2k"
+        }
+      ]
+    }
+  ]
+}

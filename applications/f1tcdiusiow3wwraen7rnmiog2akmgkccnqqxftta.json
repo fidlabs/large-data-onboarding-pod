@@ -1,0 +1,146 @@
+{
+  "Version": "1.3",
+  "ID": "f1tcdiusiow3wwraen7rnmiog2akmgkccnqqxftta",
+  "Issue Number": "58",
+  "Client": {
+    "Name": "OpendataLab",
+    "Region": "IT & Technology Services",
+    "Industry": "",
+    "Website": "https://opendatalab.org.cn",
+    "Social Media": "oepndatalab",
+    "Social Media Type": "WeChat",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Projec:OpenDataLab, established by the Shanghai AI Lab's large model database team, is the chosen platform for Chinese Large Model Corpus Data Alliance's open data services. It offers comprehensive AI data support to developers, mitigating data processing risks and fostering AI research and applications\r\nAbout me: I have joined the Filecoin ecosystem since 2019, and have been active in the community since the second half of 2020, and have contributed to filecoin Greater China by providing resource information reports, resource docking, etc.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "I will fully communicate with the storage providers, including downloading the data to my local hard disk for offline transactions. If bandwidth resources are sufficient due to long distances, the storage provider will download it from AWS, using including but not limited to boost",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://opendatalab.org.cn/OpenDataLab/CityScapes/tree/main/raw\r\nhttps://opendatalab.org.cn/AI4Chem/ChemData700K/tree/main\r\nhttps://opendatalab.org.cn/OpenXDLab/RenderMe-360/tree/main/raw",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "700TiB",
+    "Replicas": 7,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-04-08 08:51:42.511548816 UTC",
+    "Validated By": "dampud",
+    "Active": false,
+    "Updated At": "2025-04-09 17:00:40.372432686 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1tcdiusiow3wwraen7rnmiog2akmgkccnqqxftta",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "349b75af-f622-4e63-9d80-fdbc527619bc",
+      "Request Type": "First",
+      "Created At": "2024-08-08 14:47:35.994455933 UTC",
+      "Updated At": "2024-08-08 14:47:35.994457638 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-08-08 14:49:14.676000000 UTC",
+          "Message CID": "bafy2bzacedc5slc73vnr3hybqnavakxma6koj2a27ant2sgq3ci3cwsordaa4"
+        }
+      ]
+    },
+    {
+      "ID": "198b2111-d04f-4501-b192-6250cab04bce",
+      "Request Type": "First",
+      "Created At": "2024-10-01 09:59:38.685243180 UTC",
+      "Updated At": "2024-10-01 09:59:38.685244093 UTC",
+      "Active": false,
+      "Allocation Amount": "200TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-10-01 10:00:49.651000000 UTC",
+          "Message CID": "bafy2bzacedgitvt2g2wd5aptazz6qwblhmkxnzllp733bcuhhrcxgsp6a3afe"
+        }
+      ]
+    },
+    {
+      "ID": "de6a353c-27b5-43ec-9e3f-1e48fe4e843f",
+      "Request Type": "Refill",
+      "Created At": "2024-10-07 17:30:54.698008736 UTC",
+      "Updated At": "2024-10-07 17:30:54.698009483 UTC",
+      "Active": false,
+      "Allocation Amount": "768TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-10-07 17:32:44.167000000 UTC",
+          "Message CID": "bafy2bzacecg5uxkt5vkeayhh3yunv2vxnvy6vxjxirlnavozvsxgkaotck2de"
+        }
+      ]
+    },
+    {
+      "ID": "9b073856-148d-4bbb-bbff-87690804f05b",
+      "Request Type": "Refill",
+      "Created At": "2024-10-14 15:59:29.673708037 UTC",
+      "Updated At": "2024-10-14 15:59:29.673708682 UTC",
+      "Active": false,
+      "Allocation Amount": "1.5PiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-10-14 16:01:25.023000000 UTC",
+          "Message CID": "bafy2bzaceaxq4wnhs2i2ulllcrpfzf7zb2utikzbzhwigqmra3v7thpqac6yw"
+        }
+      ]
+    },
+    {
+      "ID": "e23b4b37-f963-43ec-9e40-9c71c2590ecc",
+      "Request Type": "Refill",
+      "Created At": "2024-11-20 11:41:54.594486771 UTC",
+      "Updated At": "2024-11-20 11:41:54.594487579 UTC",
+      "Active": false,
+      "Allocation Amount": "2.5PiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-11-20 11:44:07.213000000 UTC",
+          "Message CID": "bafy2bzacedjus5ivanbst4brpobvfqjzilij6gur4bicr3o3hj65s5agcadqy"
+        }
+      ]
+    },
+    {
+      "ID": "906b8aa8-c4fc-43f0-ba21-2c0654a72e58",
+      "Request Type": "Refill",
+      "Created At": "2025-04-08 08:50:11.738568011 UTC",
+      "Updated At": "2025-04-08 08:50:11.738568683 UTC",
+      "Active": false,
+      "Allocation Amount": "6597069766656B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-04-08 08:51:39.333000000 UTC",
+          "Message CID": "bafy2bzaced2u3f7dg5x3j6pgzojk3hkx5ycptbsf2oltruoca273pipnsa5cg"
+        }
+      ]
+    }
+  ]
+}

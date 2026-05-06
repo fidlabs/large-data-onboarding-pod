@@ -1,0 +1,11 @@
+name: delete branch on close pr (deprecated)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  delete-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deprecated notice
+        run: echo "Action deprecated"

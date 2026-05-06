@@ -1,0 +1,377 @@
+{
+  "Version": "1.3",
+  "ID": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
+  "Issue Number": "172",
+  "Client Contract Address": "f410foc6psy3k7a2fb37tb2tslxj2hvzuj5ymcku7xia",
+  "Client": {
+    "Name": "Allen Institute for Neural Dynamics (AIND)",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://allenneuraldynamics.github.io/data.html#aind-open-data",
+    "Social Media": "aindopendata@alleninstitute.org",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Data Access\nThe Allen Institute for Neural Dynamics (AIND) is committed to FAIR, Open, and Reproducible science. We therefore share all of the data we collect publicly with rich metadata as near to the time of collection as possible. We share data at all stages of the data lifecycle, including preliminary data collected during methods development, processed data that we are actively improving, or highly curated data used in a publication.\n\naind-open-data\nIn addition to sharing curated datasets with modality-specific NIH data archives like DANDI and BIL, we are also excited to share all of our data in one public S3 bucket generously hosted by the Registry of Open Data on AWS.\n\nAll data is stored here: s3://aind-open-data",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "SmartSPIM is a high-throughput, three-dimensional, whole-brain imaging technology commonly used in neuroscience and biomedical research.\n\nSPIM stands for Selective Plane Illumination Microscopy, commonly translated into Chinese as \"light sheet microscopy\" or \"surface scanning microscopy.\"\n\nSmartSPIM is a commercial light sheet microscopy imaging platform developed by LifeCanvas Technologies. It enables rapid, non-destructive, three-dimensional imaging of large tissues, such as mouse brains and brain slices.\n\nThis imaging technology is commonly used in cutting-edge biomedical fields such as neuron tracing, brain mapping, and tissue structure analysis.\n\nThe directory s3://aind-open-data/SmartSPIM-*** contains data collected using SmartSPIM technology, such as high-resolution 3D brain tissue images, raw imaging data, processed image data, and associated metadata.\n\nDirectories may be further subdivided by experiment, sample, date, animal ID, and other categories.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use the AWS CLI to download data from AWS, cut it into appropriate sizes, and package it into CAR files. We then send them to the SPs via HTTP or email. We also use our own DC distributor to distribute DCs to the SPs. This allows us to effectively control the number of CAR files distributed and the proportion of DCs allocated in each round, ensuring fairness.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://aind-open-data/SmartSPIM_000393_2023-01-06_13-35-10_stitched_2023-02-02_22-28-35\ns3://aind-open-data/SmartSPIM_000393_2023-01-06_13-35-10SmartSPIM_000393_2023-01-06_13-35-10\ns3://aind-open-data/SmartSPIM_000394_2023-01-05_14-56-34_stitched_2023-02-20_19-47-09\ns3://aind-open-data/SmartSPIM_000394_2023-01-05_14-56-34\ns3://aind-open-data/SmartSPIM_000397_2024-02-07_10-04-23_stitched_2024-03-06_04-02-49\ns3://aind-open-data/SmartSPIM_000397_2024-02-07_10-04-23\n\n\ns3://aind-open-data/SmartSPIM_XXXXXXX  7814.3519 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany (deprecated)\nf03315260 Germany (deprecated)\nf03367915 United States (deprecated)\nf03542777 Vietnam (deprecated)\nf03607310 Brazil (deprecated)\nf03603117 United States (deprecated)\nf03559187 United States (deprecated)\nf03100006 HongKong (deprecated)\nf03100007 HongKong (deprecated)\nf03649204 Hong Kong  (deprecated)\nf03649212 Hong Kong (deprecated)\nf03649217 Singapore  (deprecated)\nf03649227 Singapore  (deprecated)\nf03673681 Brazil (deprecated)\nf03099888 Germany  (deprecated)\nf03100088 United State  (deprecated)\nf03099287 Brazil  (deprecated)\nf03098965 Singapore  (deprecated)\nf03099101 Singapore  (deprecated)\nf03669112 Singapore  (deprecated)\n\nf03100014 HongKong (NEW)\nf03099777 Germany (NEW)",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "20PiB",
+    "Single Size Dataset": "2.5PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2026-01-23 11:49:41.850159032 UTC",
+    "Validated By": "dampud",
+    "Active": true,
+    "Updated At": "2026-01-23 11:49:41.850154449 UTC",
+    "Active Request ID": "36e5a536-f24e-4279-846b-f2de06378968",
+    "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "f1aea5ac-4fc4-42b9-8d75-2f3ffb3b0f40",
+      "Request Type": "First",
+      "Created At": "2025-09-01 08:12:02.473457066 UTC",
+      "Updated At": "2025-09-01 08:12:02.473458139 UTC",
+      "Active": false,
+      "Allocation Amount": "140737488355328 B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-09-01 08:22:30.841000000 UTC",
+          "Increase allowance CID": "bafy2bzaceabyruwvafrru6cmwcls7aetl54bksxlf3dhhbtz36mhxmciep36a"
+        }
+      ]
+    },
+    {
+      "ID": "56fce610-0189-4a8a-81a7-db2452e7d588",
+      "Request Type": "Refill",
+      "Created At": "2025-09-09 19:44:21.208984313 UTC",
+      "Updated At": "2025-09-09 19:44:21.208985 UTC",
+      "Active": false,
+      "Allocation Amount": "140737488355328B",
+      "Amount of Datacap Sent to Contract": "112589990684263B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-09-09 19:47:09.923000000 UTC",
+          "Message CID": "bafy2bzaced2gjzqffvmhq7dp54pywtfqdfbw2talu77hlnm3hfcco6azrxo3m",
+          "Increase allowance CID": "bafy2bzacedusjl3vfw4vb7vlijn2wgwzarr6hghajju47jml47v7mxjlt3mgu"
+        }
+      ]
+    },
+    {
+      "ID": "3a4090e2-0c71-4fbd-9940-7a0fd52ffc89",
+      "Request Type": "Refill",
+      "Created At": "2025-09-16 13:01:07.710152013 UTC",
+      "Updated At": "2025-09-16 13:01:07.710152969 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656B",
+      "Amount of Datacap Sent to Contract": "281474976710656B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-09-16 13:06:40.072000000 UTC",
+          "Message CID": "bafy2bzaceb3lylmvpaqzdwsrkvjp7nlmtdualsfrv7si5vtdddt7fuzmw463m",
+          "Increase allowance CID": "bafy2bzacecqa4bxvk627ebveh7fjengxsikbyqw6nks7wean3payk3ojgnege"
+        }
+      ]
+    },
+    {
+      "ID": "8f920ad1-3ce5-4671-b48b-f44284493bf3",
+      "Request Type": "Refill",
+      "Created At": "2025-09-22 12:58:24.942699825 UTC",
+      "Updated At": "2025-09-22 12:58:24.942701039 UTC",
+      "Active": false,
+      "Allocation Amount": "562949953421312B",
+      "Amount of Datacap Sent to Contract": "562949953421312B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-09-22 13:02:30.221000000 UTC",
+          "Message CID": "bafy2bzacebvxrhzmnw726pastrsljvd5bzsmgofxt3476le3mqyswt7xfgfys",
+          "Increase allowance CID": "bafy2bzacec2hdszm3ekmddua3hkq5qh7vas3l6tej7szqjpsqejb6nx6jx4y6"
+        }
+      ]
+    },
+    {
+      "ID": "4a559869-9f10-4ff6-bbe1-682616377195",
+      "Request Type": "Refill",
+      "Created At": "2025-11-03 08:44:05.698643796 UTC",
+      "Updated At": "2025-11-03 08:44:05.698645398 UTC",
+      "Active": false,
+      "Allocation Amount": "1125899906842624B",
+      "Amount of Datacap Sent to Contract": "1125899906842624B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-11-03 08:47:37.092000000 UTC",
+          "Message CID": "bafy2bzacedbcetv2x7t3uq4sw6p3bk7gmxf35omnkafefpzbxp4de6ibzs6tk",
+          "Increase allowance CID": "bafy2bzacedk25ro4q4vnvugs6mmqjc7hskjbz7jfgp4xsqf67cwuadw6pr7lq"
+        }
+      ]
+    },
+    {
+      "ID": "754f9b3f-01e5-4d91-9ef8-50a03e1b8fc5",
+      "Request Type": "Refill",
+      "Created At": "2026-01-02 13:08:34.687932720 UTC",
+      "Updated At": "2026-01-02 13:08:34.687933398 UTC",
+      "Active": false,
+      "Allocation Amount": "1125899906842624B",
+      "Amount of Datacap Sent to Contract": "1125899906842624B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2026-01-02 13:15:43.417000000 UTC",
+          "Message CID": "bafy2bzacecllzpv62kwqhgauyz4z4cga3zuef7gcu5rrb46g2swgpwzpctn7q",
+          "Increase allowance CID": "bafy2bzacebxceb2k6pikfuo3jp4a3lhlpkmeu2hdofbqfo6lkaftqvzx65p64"
+        }
+      ]
+    },
+    {
+      "ID": "1c7c7b9c-40d4-463e-8b8d-8a20e452aa35",
+      "Request Type": "Refill",
+      "Created At": "2026-01-12 11:00:45.476850859 UTC",
+      "Updated At": "2026-01-12 11:00:45.476851470 UTC",
+      "Active": false,
+      "Allocation Amount": "1125899906842624B",
+      "Amount of Datacap Sent to Contract": "1125899906842624B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2026-01-12 11:03:31.632000000 UTC",
+          "Message CID": "bafy2bzacecx7k2ci7pphox54i3haz4sprs3rhd3js7lmp4btq76gw2qvahtra",
+          "Increase allowance CID": "bafy2bzaceanmjcadqby64bfifdnuyedekxtjqsby6bcfm7jemndhnvmqvzaps"
+        }
+      ]
+    },
+    {
+      "ID": "36e5a536-f24e-4279-846b-f2de06378968",
+      "Request Type": "Refill",
+      "Created At": "2026-01-23 11:45:38.138935814 UTC",
+      "Updated At": "2026-01-23 11:45:38.138936568 UTC",
+      "Active": false,
+      "Allocation Amount": "2251799813685248B",
+      "Amount of Datacap Sent to Contract": "2251799813685248B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2026-01-23 11:49:38.834000000 UTC",
+          "Message CID": "bafy2bzaceautpjspv6gpnbraviltwbloegz4nlvvjguupbygkiv75g6b6kn7m",
+          "Increase allowance CID": "bafy2bzacecwjyzpniwygcrgjgs677gq24hmtlle62epbcjbpowi2kt2qulx3g"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "36091cb9-1952-41f1-9cba-01180530e478",
+      "Created At": "2025-09-01 08:21:05.181400480 UTC",
+      "Updated At": "2025-09-01 08:21:05.181405927 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3289271,
+        3315260,
+        3367915,
+        3542777,
+        3607310,
+        3603117,
+        3559187,
+        3100006,
+        3100007
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Set Max Deviation CID": "bafy2bzacecxh7ec3y57bel7afsmegwtoxjac7jlu5pmwmlfluaptsrsnxcace",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacec763ycluoamqzqrcyqpbvd346w5utnkmixemsznpt6d5y6fppoes": [
+              "3289271",
+              "3315260",
+              "3367915",
+              "3542777",
+              "3607310",
+              "3603117",
+              "3559187",
+              "3100006"
+            ],
+            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
+              "3100007"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "87a176e8-04c6-4aac-879a-de78b6a915ee",
+      "Created At": "2025-11-03 08:53:41.118661387 UTC",
+      "Updated At": "2025-11-03 08:53:41.118667989 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3099008,
+        3673681,
+        3649204,
+        3649212,
+        3649217,
+        3649227
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceaz7tmvlnfja5gkkhjatmctnmhg6wa7wy76fb7e7qccpa7nbnmrpa": [
+              "3099008",
+              "3673681",
+              "3649204",
+              "3649212",
+              "3649217",
+              "3649227"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
+              "3100007"
+            ],
+            "bafy2bzacecmkgnf7loz4nccntdcsno5ho37h5ol22hcl2fgwyeor5lktcxdeg": [
+              "3289271",
+              "3315260",
+              "3367915",
+              "3542777",
+              "3607310",
+              "3603117",
+              "3559187",
+              "3100006"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "71ecdf81-1dd4-4a61-8de1-0f61193e04e7",
+      "Created At": "2026-01-02 12:59:37.140536411 UTC",
+      "Updated At": "2026-01-02 12:59:37.140541946 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3099008,
+        3099888,
+        3100088,
+        3099287,
+        3098965,
+        3099101,
+        3669112
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaced43e4niidegqh3hn2i3424tnypcdsfruwe5o477gb33rapkzizgc": [
+              "3099888",
+              "3100088",
+              "3099287",
+              "3098965",
+              "3099101",
+              "3669112"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzaceaf4s6gw7qmo6t6viix6gbgkjsfegxm5bxikrxwjz7hok45fs36oc": [
+              "3649227",
+              "3649217",
+              "3649212",
+              "3649204",
+              "3673681"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "802c65db-3cd3-402c-b927-fbc061eff4b3",
+      "Created At": "2026-01-12 10:14:03.549862439 UTC",
+      "Updated At": "2026-01-12 10:14:03.549869815 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3669112,
+        3099101,
+        3098965,
+        3099287,
+        3100088,
+        3099888
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacecz3pmzzldhvaulwxirm5uipp3khnchrzkdivfertyjvv5g5mxc72": [
+              "3099008"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "58f9fb18-3475-4220-92f6-873c82113ccc",
+      "Created At": "2026-01-23 11:43:10.624526612 UTC",
+      "Updated At": "2026-01-23 11:43:10.624532809 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3100014,
+        3099777
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebolkuj7ffn3xi6wjjus2am346qxmuilatgtnd53mwn6eymnl2u6o": [
+              "3100014",
+              "3099777"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacedp4vwtji5lhusrdzjfqgrnybazhk6cqn7sbsrrkeqr5fxiw5yyec": [
+              "3669112",
+              "3099101",
+              "3098965",
+              "3099287",
+              "3100088",
+              "3099888"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
